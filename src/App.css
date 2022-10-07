@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -36,3 +38,38 @@
     transform: rotate(360deg);
   }
 }
+
+.mapouter{margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom right, #e3f0ff8b, #fafcff73);
+	height: 100vh;
+	display: flex;
+margin-top:150px ;
+	align-items: center;}
+  
+
+
+
+
+
+
+  .gmap_canvas > * {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    text-align:start;
+    line-height: 20px;
+  }
+  
+  
+  .gmap_canvas:hover{
+    border: 5px solid rgb(218,165,32);
+    transition: all ease .50s;
+    transform: translate(-20%, -20%);
+    z-index: 1;
+    margin-top: 100px;
+  }
+  
+
+.mapouter{position:relative;text-align:right;height:500px;width:600px; border-radius:20px ;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px; border-radius:20px ;position:relative;}
